@@ -1,8 +1,13 @@
+
 **/Makefile linguist-vendored
 **/CMakeLists.txt linguist-vendored
 **/*.cpp linguist-vendored
 **/*.h linguist-vendored
 **/*.txt linguist-vendored
-windows/**/* linguist-vendored
-linux/**/* linguist-vendored
-macos/**/* linguist-vendored
+windows/** linguist-vendored
+linux/** linguist-vendored
+macos/** linguist-vendored
+
+*.dart linguist-detectable=true
+*.kt linguist-detectable=true
+*.html linguist-detectable=true
