@@ -13,3 +13,42 @@
 .externalNativeBuild
 .cxx
 local.properties
+# Flutter/Dart
+bin/
+build/
+.dart_tool/
+.dev_tools/
+.packages
+.pub-cache/
+.pub/
+.connectedly/
+
+# Símbolos de debug
+app.*.symbols
+app.*.map.json
+
+# Android
+.gradle/
+local.properties
+*.iml
+*.pub
+/android/key.properties
+/android/app/local.properties
+/android/.gradle/
+
+# iOS/macOS
+*.swp
+*.lock
+.DS_Store
+/ios/Flutter/ephemeral/
+/ios/Flutter/Generated.xcconfig
+/ios/Flutter/flutter_export_environment.sh
+
+# Desktop (Windows/Linux/macOS)
+/windows/flutter/ephemeral/
+/linux/flutter/ephemeral/
+/macos/flutter/ephemeral/
+
+# IDEs
+.idea/
+.vscode/
