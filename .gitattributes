@@ -1,0 +1,10 @@
+**/Makefile linguist-documentation
+**/CMakeLists.txt linguist-documentation
+**/*.cpp linguist-documentation
+**/*.h linguist-documentation
+android/** linguist-vendored
+ios/** linguist-vendored
+build/** linguist-vendored
+windows/** linguist-vendored
+linux/** linguist-vendored
+macos/** linguist-vendored
