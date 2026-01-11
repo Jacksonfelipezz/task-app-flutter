@@ -1,10 +1,19 @@
-**/Makefile linguist-documentation
-**/CMakeLists.txt linguist-documentation
-**/*.cpp linguist-documentation
-**/*.h linguist-documentation
-android/** linguist-vendored
-ios/** linguist-vendored
-build/** linguist-vendored
-windows/** linguist-vendored
-linux/** linguist-vendored
-macos/** linguist-vendored
+android/**/* linguist-vendored
+ios/**/* linguist-vendored
+windows/**/* linguist-vendored
+linux/**/* linguist-vendored
+macos/**/* linguist-vendored
+web/**/* linguist-vendored
+
+**/*.cpp linguist-vendored
+**/*.h linguist-vendored
+**/*.mm linguist-vendored
+**/*.swift linguist-vendored
+**/*.kt linguist-vendored
+**/*.java linguist-vendored
+**/CMakeLists.txt linguist-vendored
+**/Makefile linguist-vendored
+**/*.html linguist-vendored
+**/*.js linguist-vendored
+
+*.dart linguist-detectable=true
